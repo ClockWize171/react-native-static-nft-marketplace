@@ -44,7 +44,7 @@ const HomeHeader = () => {
           fontSize: SIZES.small,
           color: COLORS.white
         }}>
-          Hello, Victoria 👋
+          Hello, Min Htin 👋
         </Text>
         <Text style={{
           fontFamily: FONTS.bold,
