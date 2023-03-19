@@ -189,6 +189,38 @@ const NFTData = [
     image: assets.nft07,
     bids: [],
   },
+  {
+    id: "NFT-08",
+    name: "A detail from Beeple’s “Everydays — The First 5000 Days,”",
+    creator: "Winkelmann",
+    price: 69.30,
+    description:
+      "In fact, the art world is familiar with this genre of sale. To take one example, anyone could duct tape a banana to the wall, but it wouldn’t be Maurizio Cattelan’s “Comedian.” Likewise, someone could easily make a digital copy of Beeple’s “Everydays — The First 5000 Days” by simply downloading it through their internet browser, but even though the content would be exactly the same, they wouldn’t own the artwork itself without blockchain verification.",
+    image: assets.nft08,
+    bids: [
+      {
+        id: "BID-61",
+        name: "Jessica Tan",
+        price: 20.25,
+        image: assets.person02,
+        date: "December 12, 2019 at 12:10 PM",
+      },
+      {
+        id: "BID-62",
+        name: "Jennifer Sia",
+        price: 20.5,
+        image: assets.person03,
+        date: "December 27, 2019 at 1:50 PM",
+      },
+      {
+        id: "BID-63",
+        name: "Rosie Wong",
+        price: 20.75,
+        image: assets.person04,
+        date: "December 31, 2019 at 3:50 PM",
+      },
+    ],
+  },
 ];
 
 export { NFTData };

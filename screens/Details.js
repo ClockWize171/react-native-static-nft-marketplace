@@ -28,9 +28,9 @@ const DetailHeader = ({ data, navigation }) => {
 
 const Details = ({ route, navigation }) => {
   const { data } = route.params;
-  console.log(`---------------------`)
-  console.log(data)
-  console.log(`---------------------`)
+  // console.log(`---------------------`)
+  // console.log(data)
+  // console.log(`---------------------`)
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <FocusedStatusBar
